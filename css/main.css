@@ -1,0 +1,38 @@
+body {
+    background-color: #738678;
+    color: white;
+}
+
+#fishTank {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 1em;
+    border: 5px dashed goldenrod;
+}
+
+.fishList {
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em;
+}
+
+.fishList-card {
+    border: greenyellow;
+    margin: 1em;
+    justify-content: space-evenly;
+}
+
+.card-image {
+    display: flex;
+}
+
+aside {
+    flex: 6;
+    background-color: rosybrown;
+}
+
+.fish-image {
+    width: 100%;
+    height: auto;
+}
